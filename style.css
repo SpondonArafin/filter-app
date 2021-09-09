@@ -1,0 +1,15 @@
+.btn-success:hover  {
+    background-color: rgb(10, 82, 177);
+}
+
+canvas {
+    animation-name: mostache_filter;
+    animation-duration: 0.00001s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mostache_filter {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px purple;}
+
+}
